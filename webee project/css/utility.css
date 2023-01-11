@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --main-bg-color: #B33771;
+    --font1: 'Mukta Mahee', sans-serif;
+    --font2: 'Roboto', sans-serif;
+
+}
+
+.max-width1 {
+    max-width: 80vw;
+}
+
+.max-width2 {
+    max-width: 99vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 2.8cm;
+
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+
+}
+
+.btn {
+
+    padding: 4px 12px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f2f1f1;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(243, 236, 236);
+}
+
+.form-input {
+    padding: 4px 19px;
+    font-size: 16px;
+    /* border: 2px solid black; */
+    border-radius: 11px;
+    margin: 0 15px;
+    font-family: var(--font2);
+}
+.form-box input, textarea{
+    width:52vw ;
+    padding: 10px 6px;
+    margin: 7px 0px;
+    font-family: var(--font2);
+    
+border-radius: 10px;
+border-color: var(--main-bg-color);
+}
+
+.contenttext{
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+.post-img img{
+    width: 100%;
+    overflow: hidden;
+    height: 475px;
+    
+}
+.post-img{
+    height: 401px;
+    overflow: hidden;
+    /* margin-left: 140px; */
+    margin-top: 5px;
+}
+.home-article-blog-img {
+    display: flex;
+    padding: 0px 15px;
+}
+
+/* experiment */
